@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Preview</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+    <div id="portfolioContainer"></div>
+    <button onclick="downloadPortfolio()">Download Source Code</button>
+    <script>
+        const content = localStorage.getItem('portfolioContent');
+        if (content) {
+            document.getElementById('portfolioContainer').innerHTML = content;
+        } else {
+            document.getElementById('portfolioContainer').innerHTML = '<p>No portfolio content found.</p>';
+        }
+    </script>
+</body>
+</html>

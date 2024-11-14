@@ -1,0 +1,185 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #e74c3c; /* Cool red color */
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Portfolio Preview Styles */
+#portfolioContainer {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-top: 20px;
+}
+
+#portfolioContainer h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#portfolioContainer h2 {
+    font-size: 24px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+#portfolioContainer p {
+    line-height: 1.6;
+}
+
+#portfolioContainer ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#portfolioContainer ul li {
+    margin-bottom: 8px;
+}
+
+#portfolioContainer div {
+    margin-top: 20px;
+}
+
+#portfolioContainer a {
+    margin-right: 10px;
+    color: #4a90e2;
+}
+
+#portfolioContainer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    #portfolioContainer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+
+    #portfolioContainer {
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    form {
+        width: 70%;
+    }
+
+    #portfolioContainer {
+        width: 70%;
+    }
+}
+@media (max-width: 1200px) {
+    form {
+        width: 60%;
+    }
+
+    #portfolioContainer {
+        width: 60%;
+    }
+}
+@media (max-width: 1400px) {
+    form {
+        width: 50%;
+    }
+
+    #portfolioContainer {
+        width: 50%;
+    }
+}
+@media (max-width: 1600px) {
+    form {
+        width: 40%;
+    }
+
+    #portfolioContainer {
+        width: 40%;
+    }
+}

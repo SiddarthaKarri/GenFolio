@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GenFolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>GenFolio</h1>
+    <form id="portfolioForm">
+        <label>Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Job Title:</label>
+        <input type="text" id="jobTitle" required>
+
+        <label>Bio:</label>
+        <textarea id="bio" rows="4" required></textarea>
+
+        <label>Skills (comma-separated):</label>
+        <input type="text" id="skills">
+
+        <label>Project Title:</label>
+        <input type="text" id="projectTitle">
+        
+        <label>Project Description:</label>
+        <textarea id="projectDesc"></textarea>
+        
+        <label>GitHub Link:</label>
+        <input type="url" id="githubLink">
+
+        <label>Live Demo Link:</label>
+        <input type="url" id="liveDemoLink">
+
+        <label>LinkedIn:</label>
+        <input type="url" id="linkedin">
+
+        <label>GitHub:</label>
+        <input type="url" id="githubProfile">
+
+        <label>Twitter:</label>
+        <input type="url" id="twitter">
+
+        <button type="button" onclick="generatePortfolio()">Generate Portfolio</button>
+    </form>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
